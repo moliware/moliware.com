@@ -1,0 +1,94 @@
+@bg-color: #EEEEEE;
+@font-color: #404040;
+@header-color: #EEEEEE;
+@bio-color:#EDDAD1;
+@projects-color: #EDE8D1;
+@talks-color: #F6FFE3;
+@contact-color: #F5CEAB;
+
+.box-shadow (@x, @y, @blur, @alpha) {
+  @value: @x @y @blur rgba(0, 0, 0, @alpha);
+  box-shadow:         @value;
+  -moz-box-shadow:    @value;
+  -webkit-box-shadow: @value;
+}
+.section(@color) {
+    background-color: @color;
+    /*border-top: 8px solid #000000;*/
+    .box-shadow(1px, 0px, 6px, 0.5);
+    border: 2px dashed @bg-color;
+    width : 980px;
+    margin-top: 10px;
+}
+
+body{
+    font-family: "Helvetica Neue";
+    color: @font-color;
+    margin: 0 auto;
+    background-color: @bg-color;
+    line-height: 1.5;
+}
+
+header {
+    min-height: 50px;
+    margin: 0 auto;
+    background-color: @header-color;
+    padding: 10px 25px 0px 0px;
+}
+
+section {
+    min-height: 350px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 20px;
+    .subcontent {
+        width: 240px;
+        margin-top: 70px;
+    }
+    .content{
+        font-size: 18px;
+        width: 700px;
+        padding-bottom: 25px;
+    }
+    .right {
+        margin-right: 20px;
+        float: right;
+    }
+    .left {
+        margin-left: 20px;
+        float: left;
+    }
+    &#biography {
+        .section(@bio-color);
+    }
+    h1 {
+        font-size: 48px;
+        font-weight: bold;
+    }
+    &#projects {
+        .section(@projects-color)
+    }
+    &#talks {
+        .section(@talks-color)
+    }
+    &#contact {
+        .section(@contact-color)
+    }
+}
+
+ul,li {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 10px;
+    .navigator {
+        display: inline;
+    }
+}
+
+nav {
+    margin-left: 40px;
+}
+
+a {
+    color:red; text-decoration:underline;
+}

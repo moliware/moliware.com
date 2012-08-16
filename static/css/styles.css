@@ -1,0 +1,101 @@
+body {
+  font-family: "Helvetica Neue";
+  color: #404040;
+  margin: 0 auto;
+  background-color: #eeeeee;
+  line-height: 1.5;
+}
+header {
+  min-height: 50px;
+  margin: 0 auto;
+  background-color: #eeeeee;
+  padding: 10px 25px 0px 0px;
+}
+section {
+  min-height: 350px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+section .subcontent {
+  width: 240px;
+  margin-top: 70px;
+}
+section .content {
+  font-size: 18px;
+  width: 700px;
+  padding-bottom: 25px;
+}
+section .right {
+  margin-right: 20px;
+  float: right;
+}
+section .left {
+  margin-left: 20px;
+  float: left;
+}
+section#biography {
+  background-color: #eddad1;
+  /*border-top: 8px solid #000000;*/
+
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.5);
+  border: 2px dashed #eeeeee;
+  width: 980px;
+  margin-top: 10px;
+}
+section h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+section#projects {
+  background-color: #ede8d1;
+  /*border-top: 8px solid #000000;*/
+
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.5);
+  border: 2px dashed #eeeeee;
+  width: 980px;
+  margin-top: 10px;
+}
+section#talks {
+  background-color: #f6ffe3;
+  /*border-top: 8px solid #000000;*/
+
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.5);
+  border: 2px dashed #eeeeee;
+  width: 980px;
+  margin-top: 10px;
+}
+section#contact {
+  background-color: #f5ceab;
+  /*border-top: 8px solid #000000;*/
+
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.5);
+  border: 2px dashed #eeeeee;
+  width: 980px;
+  margin-top: 10px;
+}
+ul,
+li {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 10px;
+}
+ul .navigator,
+li .navigator {
+  display: inline;
+}
+nav {
+  margin-left: 40px;
+}
+a {
+  color: red;
+  text-decoration: underline;
+}
