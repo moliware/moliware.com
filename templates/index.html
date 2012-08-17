@@ -20,20 +20,19 @@
     <header>
        <nav>
         <ul class="icons navigator">
-          <li class="navigator"><i class="icon-ok"></i><a href="#projects">Projects</a></li>
-          <li class="navigator"><i class="icon-ok"></i><a href="#talks">Talks</a></li>
-          <li class="navigator"><i class="icon-ok"></i><a href="#contact">Contact</a></li>
+          <li class="navigator"><i class="icon-ok"></i><a href="#projects">{{ gettext('Projects') }}</a></li>
+          <li class="navigator"><i class="icon-ok"></i><a href="#talks">{{ gettext('Talks') }}</a></li>
+          <li class="navigator"><i class="icon-ok"></i><a href="#contact">{{ gettext('Contact') }}</a></li>
         </ul>
       </nav>
     </header>
     <section id="biography">
       <div class="content left">
-        <h1>Bienvenido!</h1>
-        <p>Me llamo Miguel Olivares y soy un desarrollador español nacido en Madrid y actualmente viviendo en Valencia.</p>
-        <p>Estudié ingeniería informática en la Universidad Autónoma de Madrid.</p>
-        <p>Como programador me apasiona utilizar lenguajes dinámincos principalmente Python y estar al tanto de los proyectos de moda del momento. Como toda persona también odio cosas, por ejemplo: Metodologías ágiles mal aplicadas, java, bases de datos relacionales y muchas otras cosas!</p>
-        <p>Actualmente estoy trabajando para <a href="http://reviewpro.com/"> ReviewPro </a> donde formo parte del equipo de backend. Entre otras tecnologías, he usado Cassandra, ElasticSearch o Solr.</p>
-        <p></p>
+        <h1>{{ gettext('Welcome!') }}</h1>
+        <p>{{ gettext('bio.p1') }}</p>
+        <p>{{ gettext('bio.p2') }}</p>
+        <p>{{ gettext('bio.p3') }}</p>
+        <p>{{ gettext('bio.p4') }}</p>
       </div>
       <div class="subcontent right">
         <img src="../static/img/avatar.jpg">
@@ -41,8 +40,8 @@
     </section>
     <section id='projects'>
       <div class="content right">
-        <h1>Proyectos</h1>
-        <p>Soy un progamador que utiliza proyectos Open Source a diario. Por eso, cada vez que desarrollo algún proyecto o herramienta que considero que puede ser útil a otras personas, no dudo en compartirlo ;)</p>
+        <h1>{{ gettext('Projects') }}</h1>
+        <p>{{ gettext('projects.p1') }}</p>
       </div>
       <div class="subcontent left">
         <h2>Mis proyectos:</h2>
@@ -68,9 +67,9 @@
     </section>
     <section id='talks'>
       <div class="content left">
-        <h1>Charlas</h1>
-        <p>Pese a no ser un gran difusor, he dado algunas charlas compartiendo mi experiencia sobre algún tema tecnológico.</p>
-        <p>Puedes consultar mi perfil en speakerdeck (<a href="http://speakerdeck.com/u/moliware/">@moliware</a>).
+        <h1>{{ gettext('Talks') }}</h1>
+        <p>{{ gettext('talks.p1') }}</p>
+        <p>{{ gettext('talks.p2') }}</p>
       </div>
       <div class="subcontent right">
         <h2>Últimas charlas:</h2>
@@ -84,8 +83,8 @@
     </section>
     <section id='contact'>
       <div class="content right">
-        <h1>Contacto</h1>
-        <p>Me gustan los nuevos retos así que si tienes algún proyecto o idea que quieras compartir comingo o necesitas ayuda y crees que te puedo ser útil, contáctame!</p>
+        <h1>{{ gettext('Contact') }}</h1>
+        <p>{{ gettext('contact.p1') }}</p>
       </div>
       <div class="subcontent left">
         <ul class="icons">

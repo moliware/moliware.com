@@ -1,10 +1,17 @@
 # -*- coding: utf-8 -*-
-from flask import Flask, render_template
+from flask import Flask, render_template, request
+from flaskext.babel import Babel
 
 import os
 
 
 app = Flask(__name__)
+babel = Babel(app)
+
+
+@babel.localeselector
+def get_locale():
+    return request.accept_languages.best_match(['es', 'en']) or 'en'
 
 
 @app.route('/')
