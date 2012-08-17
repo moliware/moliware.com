@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2012-08-17 18:01+0200\n"
+"POT-Creation-Date: 2012-08-17 18:53+0200\n"
 "PO-Revision-Date: 2012-08-17 17:42+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -17,51 +17,77 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 0.9.6\n"
 
-#: templates/index.html:23 templates/index.html:43
+#: templates/index.html:24 templates/index.html:44
 msgid "Projects"
 msgstr "Projects"
 
-#: templates/index.html:24 templates/index.html:70
+#: templates/index.html:25 templates/index.html:71
 msgid "Talks"
 msgstr "Talks"
 
-#: templates/index.html:25 templates/index.html:86
+#: templates/index.html:26 templates/index.html:87
 msgid "Contact"
 msgstr "Contact"
 
-#: templates/index.html:31
+#: templates/index.html:32
 msgid "Welcome!"
 msgstr "Welcome!"
 
-#: templates/index.html:32
-msgid "bio.p1"
-msgstr "I'm Miguel Olivares, a spanish developer born in madrid and currently living in Valencia."
-
 #: templates/index.html:33
+msgid "bio.p1"
+msgstr ""
+"I'm Miguel Olivares, a spanish developer born in madrid and currently "
+"living in Valencia."
+
+#: templates/index.html:34
 msgid "bio.p2"
 msgstr "I studied computer science at Universidad Autónoma de Madrid."
 
-#: templates/index.html:34
-msgid "bio.p3"
-msgstr "As a developer, I love writting code using dynamic languages, mainly Python, and keeping up to date with the latest technolgies. As a normal person, I also hate things such as bad applied agile methodologies, java, relational databases and much more!"
-
 #: templates/index.html:35
+msgid "bio.p3"
+msgstr ""
+"As a developer, I love writting code using dynamic languages, mainly "
+"Python, and keeping up to date with the latest technolgies. As a normal "
+"person, I also hate things such as bad applied agile methodologies, java,"
+" relational databases and much more!"
+
+#: templates/index.html:36
 msgid "bio.p4"
-msgstr "I'm currently working at <a href="http://reviewpro.com/"> ReviewPro </a> where I'm a member of the backend team. I've used Cassandra, ElasticSearch or Solr, amongst other technologies."
+msgstr ""
+"I'm currently working at <a href=\"http://reviewpro.com/\"> ReviewPro "
+"</a> where I'm a member of the backend team. I've used Cassandra, "
+"ElasticSearch or Solr, amongst other technologies."
 
-#: templates/index.html:44
+#: templates/index.html:45
 msgid "projects.p1"
-msgstr "I use open source projects every day so, each time I write any library or tool that might be useful for somebody, I share it!"
+msgstr ""
+"I use open source projects every day so, each time I write any library or"
+" tool that might be useful for somebody, I share it!"
 
-#: templates/index.html:71
-msgid "talks.p1"
-msgstr "Although I'm not very good at giving talks, I gave some in the past about my own experience with a concrete technology."
+#: templates/index.html:48
+msgid "My projects:"
+msgstr "My projects:"
 
 #: templates/index.html:72
-msgid "talks.p2"
-msgstr "Check out my profile on speakerdeck (<a href="http://speakerdeck.com/u/moliware/">@moliware</a>)."
+msgid "talks.p1"
+msgstr ""
+"Although I'm not very good at giving talks, I gave some in the past about"
+" my own experience with a concrete technology."
 
-#: templates/index.html:87
+#: templates/index.html:73
+msgid "talks.p2"
+msgstr ""
+"Check out my profile on speakerdeck (<a "
+"href=\"http://speakerdeck.com/u/moliware/\">@moliware</a>)."
+
+#: templates/index.html:76
+msgid "Last talks:"
+msgstr "Last talks:"
+
+#: templates/index.html:88
 msgid "contact.p1"
-msgstr "I love new challenges so if you have a project or idea that you want to share with me or you need help and you think I could be useful, contact me!"
+msgstr ""
+"I love new challenges so if you have a project or idea that you want to "
+"share with me or you need help and you think I could be useful, contact "
+"me!"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2012-08-17 18:01+0200\n"
+"POT-Creation-Date: 2012-08-17 18:53+0200\n"
 "PO-Revision-Date: 2012-08-17 17:43+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: es <LL@li.org>\n"
@@ -17,51 +17,78 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 0.9.6\n"
 
-#: templates/index.html:23 templates/index.html:43
+#: templates/index.html:24 templates/index.html:44
 msgid "Projects"
 msgstr "Proyectos"
 
-#: templates/index.html:24 templates/index.html:70
+#: templates/index.html:25 templates/index.html:71
 msgid "Talks"
 msgstr "Charlas"
 
-#: templates/index.html:25 templates/index.html:86
+#: templates/index.html:26 templates/index.html:87
 msgid "Contact"
 msgstr "Contacto"
 
-#: templates/index.html:31
+#: templates/index.html:32
 msgid "Welcome!"
 msgstr "Bienvenido!"
 
-#: templates/index.html:32
-msgid "bio.p1"
-msgstr "Me llamo Miguel Olivares y soy un desarrollador español nacido en Madrid y actualmente viviendo en Valencia."
-
 #: templates/index.html:33
+msgid "bio.p1"
+msgstr ""
+"Me llamo Miguel Olivares y soy un desarrollador español nacido en Madrid "
+"y actualmente viviendo en Valencia."
+
+#: templates/index.html:34
 msgid "bio.p2"
 msgstr "Estudié ingeniería informática en la Universidad Autónoma de Madrid."
 
-#: templates/index.html:34
-msgid "bio.p3"
-msgstr "Como programador me apasiona utilizar lenguajes dinámincos principalmente Python y estar al tanto de los proyectos de moda del momento. Como toda persona también odio cosas, por ejemplo: Metodologías ágiles mal aplicadas, java, bases de datos relacionales y muchas otras cosas!"
-
 #: templates/index.html:35
+msgid "bio.p3"
+msgstr ""
+"Como programador me apasiona utilizar lenguajes dinámincos principalmente"
+" Python y estar al tanto de los proyectos de moda del momento. Como toda "
+"persona también odio cosas, por ejemplo: Metodologías ágiles mal "
+"aplicadas, java, bases de datos relacionales y muchas otras cosas!"
+
+#: templates/index.html:36
 msgid "bio.p4"
-msgstr "Actualmente estoy trabajando para <a href="http://reviewpro.com/"> ReviewPro </a> donde formo parte del equipo de backend. Entre otras tecnologías, he usado Cassandra, ElasticSearch o Solr."
+msgstr ""
+"Actualmente estoy trabajando para <a href=\"http://reviewpro.com/\"> "
+"ReviewPro </a> donde formo parte del equipo de backend. Entre otras "
+"tecnologías, he usado Cassandra, ElasticSearch o Solr."
 
-#: templates/index.html:44
+#: templates/index.html:45
 msgid "projects.p1"
-msgstr "Soy un progamador que utiliza proyectos Open Source a diario. Por eso, cada vez que desarrollo algún proyecto o herramienta que considero que puede ser útil a otras personas, no dudo en compartirlo ;)"
+msgstr ""
+"Soy un progamador que utiliza proyectos Open Source a diario. Por eso, "
+"cada vez que desarrollo algún proyecto o herramienta que considero que "
+"puede ser útil a otras personas, no dudo en compartirlo ;)"
 
-#: templates/index.html:71
-msgid "talks.p1"
-msgstr "Pese a no ser un gran difusor, he dado algunas charlas compartiendo mi experiencia sobre algún tema tecnológico."
+#: templates/index.html:48
+msgid "My projects:"
+msgstr "Mis proyectos:"
 
 #: templates/index.html:72
-msgid "talks.p2"
-msgstr "Puedes consultar mi perfil en speakerdeck (<a href="http://speakerdeck.com/u/moliware/">@moliware</a>)."
+msgid "talks.p1"
+msgstr ""
+"Pese a no ser un gran difusor, he dado algunas charlas compartiendo mi "
+"experiencia sobre algún tema tecnológico."
 
-#: templates/index.html:87
+#: templates/index.html:73
+msgid "talks.p2"
+msgstr ""
+"Puedes consultar mi perfil en speakerdeck (<a "
+"href=\"http://speakerdeck.com/u/moliware/\">@moliware</a>)."
+
+#: templates/index.html:76
+msgid "Last talks:"
+msgstr "Últimas charlas:"
+
+#: templates/index.html:88
 msgid "contact.p1"
-msgstr "Me gustan los nuevos retos así que si tienes algún proyecto o idea que quieras compartir comingo o necesitas ayuda y crees que te puedo ser útil, contáctame!"
+msgstr ""
+"Me gustan los nuevos retos así que si tienes algún proyecto o idea que "
+"quieras compartir comingo o necesitas ayuda y crees que te puedo ser "
+"útil, contáctame!"
 

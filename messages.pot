@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2012-08-17 18:01+0200\n"
+"POT-Creation-Date: 2012-08-17 18:53+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,51 +17,59 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 0.9.6\n"
 
-#: templates/index.html:23 templates/index.html:43
+#: templates/index.html:24 templates/index.html:44
 msgid "Projects"
 msgstr ""
 
-#: templates/index.html:24 templates/index.html:70
+#: templates/index.html:25 templates/index.html:71
 msgid "Talks"
 msgstr ""
 
-#: templates/index.html:25 templates/index.html:86
+#: templates/index.html:26 templates/index.html:87
 msgid "Contact"
 msgstr ""
 
-#: templates/index.html:31
+#: templates/index.html:32
 msgid "Welcome!"
 msgstr ""
 
-#: templates/index.html:32
+#: templates/index.html:33
 msgid "bio.p1"
 msgstr ""
 
-#: templates/index.html:33
+#: templates/index.html:34
 msgid "bio.p2"
 msgstr ""
 
-#: templates/index.html:34
+#: templates/index.html:35
 msgid "bio.p3"
 msgstr ""
 
-#: templates/index.html:35
+#: templates/index.html:36
 msgid "bio.p4"
 msgstr ""
 
-#: templates/index.html:44
+#: templates/index.html:45
 msgid "projects.p1"
 msgstr ""
 
-#: templates/index.html:71
-msgid "talks.p1"
+#: templates/index.html:48
+msgid "My projects:"
 msgstr ""
 
 #: templates/index.html:72
+msgid "talks.p1"
+msgstr ""
+
+#: templates/index.html:73
 msgid "talks.p2"
 msgstr ""
 
-#: templates/index.html:87
+#: templates/index.html:76
+msgid "Last talks:"
+msgstr ""
+
+#: templates/index.html:88
 msgid "contact.p1"
 msgstr ""
 
