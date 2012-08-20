@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2012-08-17 18:53+0200\n"
+"POT-Creation-Date: 2012-08-20 20:05+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,11 +21,11 @@ msgstr ""
 msgid "Projects"
 msgstr ""
 
-#: templates/index.html:25 templates/index.html:71
+#: templates/index.html:25 templates/index.html:72
 msgid "Talks"
 msgstr ""
 
-#: templates/index.html:26 templates/index.html:87
+#: templates/index.html:26 templates/index.html:88
 msgid "Contact"
 msgstr ""
 
@@ -53,23 +53,27 @@ msgstr ""
 msgid "projects.p1"
 msgstr ""
 
-#: templates/index.html:48
+#: templates/index.html:46
+msgid "projects.p2"
+msgstr ""
+
+#: templates/index.html:49
 msgid "My projects:"
 msgstr ""
 
-#: templates/index.html:72
+#: templates/index.html:73
 msgid "talks.p1"
 msgstr ""
 
-#: templates/index.html:73
+#: templates/index.html:74
 msgid "talks.p2"
 msgstr ""
 
-#: templates/index.html:76
+#: templates/index.html:77
 msgid "Last talks:"
 msgstr ""
 
-#: templates/index.html:88
+#: templates/index.html:89
 msgid "contact.p1"
 msgstr ""
 
