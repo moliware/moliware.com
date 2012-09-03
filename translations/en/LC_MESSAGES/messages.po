@@ -55,7 +55,7 @@ msgstr ""
 msgid "bio.p4"
 msgstr ""
 "I'm currently working at <a href=\"http://reviewpro.com/\"> ReviewPro "
-"</a> where I'm a member of the backend team. I've used Cassandra, "
+"</a> where I'm a member of the backend team. I've used Hadoop, Cassandra, "
 "ElasticSearch or Solr, amongst other technologies."
 
 #: templates/index.html:45
